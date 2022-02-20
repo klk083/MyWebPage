@@ -1,9 +1,9 @@
 function changeParagraph() {
-  document.getElementById("demo").innerHTML = "Paragraph changed.";
+  document.getElementById("p1").innerHTML = "You changed the paragraph.";
 }
 
 function testButton() {
-  
+
 }
 
 function swap(sheet) {

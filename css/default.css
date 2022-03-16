@@ -16,3 +16,32 @@ p.static {
   border: 2px inset gray;
   margin-bottom: 1em;
 }
+
+.p1 {
+  width: 20px;
+  height: 20px;
+  border-style: solid;
+  border-radius: 0px 0px 50% 50%;
+  margin:30px auto;
+  position:relative;
+  background: linear-gradient(0deg, #FF0000 50%, #FFFFFF 50%);
+
+}
+
+.p2 {
+  width: 0px;
+  height: 20px;
+  border-style: solid;
+  margin:-32px auto;
+  position:relative;
+}
+
+.p3 {
+  width: 20px;
+  height: 1px;
+  border-style: solid;
+  border-radius: 50% 50% 0 0;
+  margin:30px auto;
+  position:relative;
+  background-color:black;
+}

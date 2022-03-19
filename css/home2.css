@@ -6,6 +6,8 @@ body, html {
   box-sizing: border-box;
 }
 
+
+/* a class*/
 .bg-image {
   /* The image used */
   background-image: url("../img/bg.jpg");
@@ -21,6 +23,7 @@ body, html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+
 }
 
 /* Position text in the middle of the page/image */
@@ -38,4 +41,11 @@ body, html {
   width: 80%;
   padding: 20px;
   text-align: center;
+}
+
+#text:hover { /* how to hover on id*/
+  color: lightgrey;
+  background-color: rgba(0,0,0, 0.6 ); /* Black w/opacity/see-through */
+
+
 }

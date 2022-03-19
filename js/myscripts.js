@@ -3,11 +3,16 @@ function changeParagraph() {
 }
 
 function testButton() {
-
 }
 
 function swap(sheet) {
   document.getElementById('theme').setAttribute('href',sheet);
+}
 
+function nextPage() {
+  location.href = "home.html";
+}
 
+function pageSelector(page)  {
+    location.href = page;
 }

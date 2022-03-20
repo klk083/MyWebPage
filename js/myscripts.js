@@ -1,6 +1,9 @@
 function changeParagraph() {
   document.getElementById("p1").innerHTML = "You changed the paragraph.";
 }
+function changeParagraph1() {
+  document.getElementById("p1").innerHTML = "You change back";
+}
 
 function testButton() {
 }

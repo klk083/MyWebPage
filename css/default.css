@@ -1,29 +1,29 @@
 body, html {
   background-color: powderblue;
-  width:80%;
 
 }
-h1 {
-  color: blue;
-}
-
 
 
 p.static {
-  position: static;
-  border: 3px solid #73AD21;
+  position: relative;
+  margin-top: 5%;
+  width:300px;
 }
 
 
+.glass {
+  position: absolute;
+  left: 10px;
+}
 
 .p1 {
-  width: 20px;
-  height: 20px;
+  width:30px;
+  height: 10px;
   border-style: solid;
   border-radius: 0px 0px 50% 50%;
   margin:30px auto;
   position:relative;
-  background: linear-gradient(0deg, #FF0000 50%, #FFFFFF 50%);
+  background: linear-gradient(0deg, yellow 50%, powderblue 50%);
 
 }
 
@@ -45,28 +45,22 @@ p.static {
   background-color:black;
 }
 
-.pageBt {
-  position: absolute;
-  bottom: 0px;
-  float:left;
-  display:inline;
-  width: 50%;
-  border: 3px solid grey;
-}
 
 .dropdown {
   display: inline-block;
-  position: absolute;
+  position: fixed;
   top: 0px;
+  left: 0px;
   width: 100%;
+  background-color: black;
+  color: white;
+  flex-direction: row;
 
 }
 .dropdown-content {
   background-color: rgba(0, 0, 0, 1);
   display: none;
   position: absolute;
-  right: 0px;
-  width: 10%;
   overflow: auto;
   box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.2);
 
@@ -85,6 +79,7 @@ p.static {
   background-color: #00A4BD;
 }
 
-.dropdown-content p {
-  border:
+#menu {
+  font-size: 20px;
+    margin: 10px;
 }
